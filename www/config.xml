@@ -5,8 +5,11 @@
         The begining of it all!
     </description>
     <author email="daniel@sasserenterprises.com" href="http://sasserenterprises.com">
-        Apache Cordova Team
     </author>
     <content src="index.html" />
     <access origin="*" />
+	<icon gap:platform="android" src="icon.png" />
+	<preference name="Fullscreen" value="true" />
+	<preference name="Orientation" value="portrait" />
+	
 </widget>
