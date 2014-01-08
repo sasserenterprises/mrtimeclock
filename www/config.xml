@@ -1,15 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.example.mtc" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.mrtimeclock.beta"
+    version   = "1.0.0">
     <name>Mr Time Clock</name>
     <description>
         The begining of it all!
     </description>
     <author email="daniel@sasserenterprises.com" href="http://sasserenterprises.com">
     </author>
-    <content src="index.html" />
-    <access origin="*" />
-	<icon gap:platform="android" src="icon.png" />
+    
+	
 	<preference name="Fullscreen" value="true" />
 	<preference name="Orientation" value="portrait" />
-	
+	<icon gap:platform="android" src="icon.png" />
+	<content src="index.html" />
+    <access origin="*" />
 </widget>
