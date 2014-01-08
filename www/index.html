@@ -47,15 +47,19 @@
   <div data-role="content" align="center">
   <h2><img src="img/clock.png" alt="" width="275" height="72"><br />
 Bussiness Managment System</h2>
-  <div data-role="fieldcontain">
-    <label for="user">MOBILE PHONE:</label>
-    <input type="TEL" name="user" id="user" value="" placeholder="MOBILE NUMBER"/>
-  </div>
-  <div data-role="fieldcontain">
-    <label for="password">PASSWORD:</label>
-    <input type="password" name="password" id="password" value="" placeholder="PASSWORD"  />
-  </div>
-  <button>CONTINUE</button>
+  <form id="loginForm">
+        <div data-role="fieldcontain" class="ui-hide-label">
+            <label for="user">MOBILE PHONE:</label>
+            <input type="tel" name="user" id="user" value="" placeholder="MOBILE NUMBER" />
+        </div>
+
+        <div data-role="fieldcontain" class="ui-hide-label">
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" value="" placeholder="PASSWORD" />
+        </div>
+
+        <input type="submit" value="Login" id="continue">
+        </form>
   
   
      
