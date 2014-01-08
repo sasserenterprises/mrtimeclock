@@ -1,4 +1,4 @@
-// JavaScript Document
+// JavaScript Document tester
 function init() {
 document.addEventListener("deviceready", deviceReady, true);
 delete init;
